@@ -42,11 +42,11 @@ function merge($left, $right) {
 
 // Lista inicial de palabras
 $words = ["manzana", "Pera", "banana", "uva", "kiwi", "cereza", "limón"];
-
+echo "<br>";
 // Mostrar lista antes de ordenar
 echo "Lista antes de ordenar:\n";
 print_r($words);
-
+echo "<br>";
 // Ordenar la lista
 $sortedWords = mergeSort($words);
 

@@ -23,7 +23,7 @@ $names = ["Carlos", "ana", "Beatriz", "José", "María", "andrés", "Zara"];
 // Mostrar lista antes de ordenar
 echo "Lista datos antes de ordenar:\n";
 print_r($names);
-
+echo "<br>";
 // Ordena la lista
 insertionSort($names);
 

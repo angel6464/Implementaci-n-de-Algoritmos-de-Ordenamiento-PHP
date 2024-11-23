@@ -20,7 +20,7 @@ $list = [3, -1, 7, 4, -5, 3, 0, 9, -2];
 // Mostramos la lista antes 
 echo "Lista antes de ordenar:\n";
 print_r($list);
-
+echo "<br>";
 // Ordena la lista
 bubbleSortDesc($list);
 
